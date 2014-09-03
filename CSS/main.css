@@ -1,0 +1,36 @@
+body{
+	background-color:white;
+	background-image: url(../Images/GoldenGate.jpg) no-repeat center center fixed;
+	background-size: 100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+#Name{
+	background-color: #E6E6E6;
+	height: 150px;
+	margin: 20px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;
+	font-size: 72px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	box-sizing: border-box;
+	opacity: 0.8;
+}
+#About{
+	background-color: #E6E6E6;
+	height: 500px;
+	font-size: 32px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 20px 0px 20px 0px;
+	padding: 20px 20px 20px 20px;
+	opacity: 0.8;
+}
+#Pictures{
+	background-color: #E6E6E6;
+	height: 300px;
+	margin: 20px 0px 20px 0px;
+	padding: 20px 20px 20px 20px;
+	opacity: 0.8;
+}
