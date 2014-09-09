@@ -32,7 +32,7 @@ p {
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  margin: 0px 0px 90px 100px;
+  margin: 10px 0px 0px 100px;
 }
 
 
@@ -40,12 +40,11 @@ p {
 /*prallax beginning*/
 
 .slide { /*basically keeps the 'slide' or image in place*/
-  position: relative;
+  position: relative; /*making this 'fixed' breaks everything*/
   padding: 25vh 10%;
   min-height: 100vh;
   width: 100vw;
   box-sizing: border-box;
-  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
   transform-style: inherit; /*renders it in a 3D space*/
   font-size: 20px;
 }
@@ -86,7 +85,7 @@ p {
   text-align: center;
   font-size: 175%;
   color: #fff;
-  text-shadow: 0 2px 2px #000;
+
 }
 
 #title {
@@ -103,7 +102,7 @@ p {
 
 #slide2 {
   background-image: url("https://s3.amazonaws.com/ooomf-com-files/xKNCBEgSTUGbgBoYgJ90_Skyline.jpg");
-  background-attachment: fixed;
+  background-attachment: fixed; /*keeps image stationary*/
 }
 
 #slide3:before {
@@ -119,13 +118,31 @@ p {
 /*parallax end*/
 
 #name{
-  background-color: white;
   background: rgba(200, 200, 200, 0.6);
   text-align: block;
   text-align: center;
   font-size: 72px;
   height: 80px;
   margin: 20px 0px 0px 0px;
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 100px 0px;
+}
+
+/*scroll bar stuff*/
+body::-webkit-scrollbar {
+    width: 0.8em;
+    background: rgba(200, 200, 200, 0.2);
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0 , 1.0);
+    
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 0px solid slategrey;
+    border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
 
 }
