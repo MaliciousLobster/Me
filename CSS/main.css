@@ -94,25 +94,25 @@ p {
    background-attachment: fixed;
 }
 
-#slide1:before {
+#panel1:before {
   background-image: url("https://s3.amazonaws.com/ooomf-com-files/Vo7YbYQQ8iyOo4J9bOoj_ggb24.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
   background-color: white;
 }
 
-#slide2 {
+#panel2 {
   background-image: url("https://s3.amazonaws.com/ooomf-com-files/xKNCBEgSTUGbgBoYgJ90_Skyline.jpg");
   background-attachment: fixed; /*keeps image stationary*/
 }
 
-#slide3:before {
+#panel3:before {
   background-image: url("");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
-#slide4 {
+#panel4 {
   background: #222;
 }
 
