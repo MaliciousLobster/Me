@@ -182,10 +182,6 @@ body::-webkit-scrollbar-thumb {
 /*sticky nav end*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-html {
-  height:100%;
-  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
-}
 
 nav {
   max-width: 100%;
@@ -193,11 +189,12 @@ nav {
   margin: 0 auto;
   padding: 60px 0;
 
+
 }
 
 nav ul {
   text-align: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
@@ -207,9 +204,9 @@ nav ul li {
 
 nav ul li a {
   padding: 18px;
-  text-transform:uppercase;
+  text-transform: uppercase;
   color: black;
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
   display: block;
 }
@@ -223,5 +220,7 @@ nav ul li a:hover {
 
 
 #carousel-example-generic{
-  height: 700px;
+  height: 100%;
+  width: 100%;
+
 }
