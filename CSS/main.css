@@ -53,11 +53,13 @@ p {
   }
   .container{
     width: 320px;
+    width: 100%;
   }
   .panel{
     font-size: 10px;
+    width: 100%;
   }
-  
+
 }
 
 
@@ -186,7 +188,7 @@ html {
 }
 
 nav {
-  max-width: 960px;
+  max-width: 100%;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
   padding: 60px 0;
@@ -206,7 +208,7 @@ nav ul li {
 nav ul li a {
   padding: 18px;
   text-transform:uppercase;
-  color: rgba(0, 35, 122, 0.5);
+  color: black;
   font-size: 18px;
   text-decoration: none;
   display: block;
