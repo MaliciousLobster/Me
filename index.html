@@ -3,33 +3,37 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<div class="main_h">
-	  		<div class="navrow">
-	  			<nav>
-			  		<ul>
-			    		<li>
-			      			<a href="#">Home</a>
-			    		</li>
-			    		<li>
-			      			<a href="#">About</a>
-			    		</li>
-			    		<li>
-			      			<a href="#">Services</a>
-			    		</li>
-			    		<li>
-			      			<a href="#">Contact</a>
-		    			</li>
-		  			</ul>
-				</nav>
-	  		</div>
-	  	</div>	
+	<header id="header">
+  		<nav>
+		  	<ul>
+	    		<li>
+	      			<a href="#">Home</a>
+	    		</li>
+	    		<li>
+	      			<a href="#">About</a>
+	    		</li>
+		   		<li>
+		   			<a href="#">Services</a>
+		    	</li>
+		    	<li>
+		      		<a href="#">Contact</a>
+		   		</li>
+		  	</ul>
+		</nav>
+	</header> 
 </head>
 <body>
-
+	<div id="header-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 203px;">
+		<div id="header" style="position: fixed; top: 0px;">
+			<span>Sticky</span>
+		</div>
+	</div>
 	<div id="title" class="container panel top">
+	  	
 	  	<div class="row">
 	  		<div class="col-xs-4">
 	  			<img src="Images/Me.jpg" class="circular">
@@ -68,16 +72,16 @@
 			  <!-- Wrapper for slides -->
 			  		<div class="carousel-inner">
 			    		<div class="item active">
-			      			<img src="Images/Venom.png" alt="Venom">
+			      			<img src="Images/Venom.png" height="500px" width="500px" alt="Venom">
 			      			<div class="carousel-caption">
 			        			what is this?
 			      			</div>
 			    		</div>
 			    		<div class="item">
-			      			<img src="Images/HappyEaster.jpeg" alt="Easter Art">	
+			      			<img src="Images/HappyEaster.jpeg" height="500px" width="500px" alt="Easter Art">	
 			    		</div>
 			    		<div class="item">
-			      			<img src="Images/DomSoldier.jpeg" alt="Easter Art">
+			      			<img src="Images/DomSoldier.jpeg" height="500px" width="500px" alt="Easter Art">
 			    		</div>
 			  		</div>
 
@@ -121,6 +125,8 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script text="text/javascript" src="JS/bootstrap.min.js"></script>	
+
+
 
 </body>
 
