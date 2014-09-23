@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-  font-size: 140%;
+  font-size: 100% ;
   line-height: 150%;
   color: #333;
 }
@@ -59,7 +59,12 @@ p {
     height: 100%;
     width: 100%;
   }
-
+  #name{
+    background: rgba(200, 200, 200, 0.6);
+    font-size: px;
+    height: 300px;
+    width: 100%;
+  }
 }
 
 
