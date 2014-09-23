@@ -50,6 +50,12 @@ p {
     font-size: 10px;
     width: 100%;
   }
+  #carousel-example-generic{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  }
 
 }
 
@@ -221,8 +227,12 @@ nav ul li a:hover {
 
 
 #carousel-example-generic{
-  height: 700px;
-  width: 900px;
+  height: 100%;
+  width: 100%;
   text-align: center;
 
+}
+.carousel-inner{
+  height: 700px;
+  width: 900px;
 }
